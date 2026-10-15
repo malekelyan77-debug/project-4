@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="daylight">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Malek Aliyan | Cybersecurity graduate portfolio</title>
+  <meta name="description" content="Portfolio of Malek, a cybersecurity graduate from Irbid, Jordan, building secure web and embedded systems.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ===== Header / Navbar ===== -->
+  <header class="site-header">
+    <nav class="navbar" aria-label="Main navigation">
+      <a class="brand" href="#top">Malek</a>
+
+      <button id="menu-toggle" class="icon-btn menu-toggle" aria-expanded="false" aria-controls="nav-links" aria-label="Open menu">
+        <span class="bars" aria-hidden="true"></span>
+      </button>
+
+      <ul id="nav-links" class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#hobbies">Hobbies</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <!-- Mandatory JS feature: theme switcher -->
+      <button id="theme-toggle" class="theme-btn" type="button" aria-label="Switch color theme">
+        <span class="swatch" aria-hidden="true"></span>
+        <span id="theme-label">Daylight</span>
+      </button>
+    </nav>
+  </header>
+
+  <main id="main">
+    <!-- ===== Hero ===== -->
+    <section class="hero" id="top">
+      <div class="container hero-inner">
+        <p class="hero-kicker">Irbid, Jordan</p>
+        <h1 class="hero-title">Hi, I'm Malek. I build things and then try to break them.</h1>
+        <p class="hero-text">Cybersecurity graduate from Tafila Technical University. I on networks, and embedded systems, and I care about making each of them safe to use.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#projects">See my projects</a>
+          <a class="btn btn-ghost" href="#contact">Get in touch</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== About Me ===== -->
+    <section class="section" id="about" aria-labelledby="about-title">
+      <div class="container about">
+        <figure class="about-photo">
+          <!-- Replace assets/profile.svg with your own photo, e.g. assets/profile.jpg -->
+          <img src="assets/profile.svg" alt="Portrait of Malek" width="400" height="400">
+        </figure>
+        <div class="about-body">
+          <h2 id="about-title">About me</h2>
+          <p>I studied Cybersecurity at Tafila Technical University from October 2021 to September 2026. My coursework covered embedded systems, web development, network security, and computer networks.</p>
+          <p>I'm a fresh graduate looking for a first role where I can keep learning on real systems. I like projects where I can see how the parts connect, from a sensor on a breadboard to a login form in a browser.</p>
+          <dl class="facts">
+            <div><dt>Degree</dt><dd>B.Sc. Cybersecurity</dd></div>
+            <div><dt>Graduated</dt><dd>September 2026</dd></div>
+            <div><dt>Based in</dt><dd>Irbid, Jordan</dd></div>
+          </dl>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Skills ===== -->
+    <section class="section section-alt" id="skills" aria-labelledby="skills-title">
+      <div class="container">
+        <h2 id="skills-title">Skills</h2>
+        <ul class="skills-grid">
+          <li class="skill">
+            <h3>Web development basecis</h3>
+            <p>HTML5, CSS3, JavaScript, PHP, MySQL</p>
+          </li>
+          <li class="skill">
+            <h3>Cybersecurity</h3>
+            <p>Network security, secure coding basics, threat awareness</p>
+          </li>
+          <li class="skill">
+            <h3>Networking</h3>
+            <p>Computer networks, protocols, traffic and topology basics</p>
+          </li>
+          <li class="skill">
+            <h3>Embedded systems</h3>
+            <p>Arduino, circuit simulation in Tinkercad, sensors</p>
+          </li>
+          <li class="skill">
+            <h3>Tools</h3>
+            <p>Git, GitHub, Linux command line</p>
+          </li>
+          <li class="skill">
+            <h3>Ways of working</h3>
+            <p>Reading documentation, debugging step by step, clear write-ups</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ===== Project Showcase (Projects 00-03) ===== -->
+    <section class="section" id="projects" aria-labelledby="projects-title">
+      <div class="container">
+        <h2 id="projects-title">Projects</h2>
+        <p class="section-lead">Four projects from my coursework, from hardware to web.</p>
+        <div class="projects-grid">
+          <article class="project">
+            <h3>Project 00: Light-tracking system</h3>
+            <p>An Arduino circuit, simulated in Tinkercad, that senses light and reacts to where it is strongest.</p>
+            <ul class="tags"><li>Arduino</li><li>Tinkercad</li><li>Embedded</li></ul>
+            <a class="project-link" href="#" aria-label="View Project 00 details">View project</a>
+          </article>
+          <article class="project">
+            <h3>Project 1: Restaurant menu app</h3>
+            <p>An interactive menu web app with a PHP back end and MySQL database for browsing dishes.</p>
+            <ul class="tags"><li>PHP</li><li>MySQL</li><li>Web</li></ul>
+            <a class="project-link" href="#" aria-label="View Project 01 details">View project</a>
+          </article>
+          <article class="project">
+            <h3>Project 2: E-commerce store app</h3>
+            <p>An interactive online store web app build based on html, css, javascript and PHP and MySQL database.</p>
+            <ul class="tags"><li>PHP</li><li>Web</li><li>MySQL</li></ul>
+            <a class="project-link" href="#" aria-label="View Project 02 details">View project</a>
+          </article>
+      </div>
+      </div>
+    </section>
+
+    <!-- ===== Hobbies ===== -->
+    <section class="section section-alt" id="hobbies" aria-labelledby="hobbies-title">
+      <div class="container">
+        <h2 id="hobbies-title">Hobbies</h2>
+        <ul class="hobbies">
+          <li>Solving capture-the-flag challenges</li>
+          <li>Tinkering with Arduino circuits</li>
+          <li>Reading about security incidents</li>
+          <li>Rebuilding small web apps to learn how they work</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ===== Contact ===== -->
+    <section class="section" id="contact" aria-labelledby="contact-title">
+      <div class="container contact">
+        <div class="contact-intro">
+          <h2 id="contact-title">Contact</h2>
+          <p>Have a role, a project, or a question? Send a message and I'll reply as soon as I can.</p>
+        </div>
+        <form id="contact-form" class="contact-form" novalidate>
+          <div class="field">
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" autocomplete="name" required>
+            <p class="error" id="name-error" aria-live="polite"></p>
+          </div>
+          <div class="field">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" autocomplete="email" required>
+            <p class="error" id="email-error" aria-live="polite"></p>
+          </div>
+          <div class="field">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+            <p class="error" id="message-error" aria-live="polite"></p>
+          </div>
+          <button class="btn btn-primary" type="submit">Send message</button>
+          <p id="form-status" class="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== Footer ===== -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; <span id="year">2026</span> Malek. Built with HTML, CSS, and JavaScript.</p>
+      <ul class="footer-links">
+        <li><a href="https://github.com/malekelyan77-debug" rel="noopener">GitHub</a></li>
+        <li><a href="https://www.linkedin.com/in/malek-elayan-2a8925333?utm_source=share_via&utm_content=profile&utm_medium=member_android" rel="noopener">LinkedIn</a></li>
+        <li><a href="#top">Back to top</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
